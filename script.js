@@ -22,11 +22,11 @@ document.addEventListener("DOMContentLoaded", function() {
         img.src = `photos/${photo}`;
         img.alt = photo;
 
-        // const caption = document.createElement("p");
-        // caption.innerText = photo;
+        const caption = document.createElement("p");
+        caption.innerText = "";
 
         photoDiv.appendChild(img);
-        // photoDiv.appendChild(caption);
+        photoDiv.appendChild(caption);
         photoContainer.appendChild(photoDiv);
     });
 });
