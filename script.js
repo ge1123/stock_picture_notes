@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // caption.innerText = photo;
 
         photoDiv.appendChild(img);
-        photoDiv.appendChild(caption);
+        // photoDiv.appendChild(caption);
         photoContainer.appendChild(photoDiv);
     });
 });
