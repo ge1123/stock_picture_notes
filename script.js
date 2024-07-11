@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "440910.jpg",
         "82064.jpg",
         "82066.jpg",
+        "82101.jpg",
         // 根據需要添加更多照片
     ];
 
